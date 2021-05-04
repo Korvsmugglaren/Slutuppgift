@@ -1,0 +1,16 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+/* Header */
+.header-frills {
+    height: 17px;
+    width: 100%;
+    background: url(../BILDER/header-frills.png) center center repeat-x;
+    position: absolute;
+    bottom: -17px;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
