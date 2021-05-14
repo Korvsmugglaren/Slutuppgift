@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="CSS/Style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <script src="JAVASCRIPT/Java.js"></script>
 </head>
 <body>
     <!-- Header och Navbnar -->
@@ -31,16 +30,16 @@
                     <a class="nav-link" href="#">Meny</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Avhämtningsmeny</a>
+                    <a class="nav-link" href="#">Om Oss</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontakta Oss</a>
                 </li>
                 </ul>
             </div>
-            <div class="status nav-item">
+            <div id="status">
                 <div id="status-dot"></div>
-                <h5 id="Status-text">Closed</h5>
+                <h5 id="status-text" >Closed</h5>
             </div>
             </nav>
     </header>
@@ -49,11 +48,74 @@
 
     <!-- Herobild -->
     <img src="BILDER/Dal baffo resturang.jpg" alt="sa" style="width: 100%;">
-
-    <footer class=col-md-12>
+    <main>
+        <div class=container>
+            <div class=row>
+                <div class="infobox-long col-md">
+                    <div class="infobox-content d-flex justify-content-center">
+                        <div>
+                            <h4>Veckans Lunch</h4>
+                            <h5>Måndag</h5>
+                            <p>Fläskfilé med Choronsås och råstekt potatis</p>
+                            <h5>Tisdag</h5>
+                            <p>Raggmunk med stekt fläsk och lingon Alt. Stekt fläsk med löksås och kokt potatis</p>
+                            <h5>Onsdag</h5>
+                            <p>Köttfärslimpa med gräddsås och kokt potatis</p>
+                            <h5>Torsdag</h5>
+                            <p>Kalops med legymskivade rödbetor och kokt potatis</p>
+                            <h5>Fredag</h5>
+                            <p>Dal Baffos fläskfiléplanka med bearnaisesås och potatismos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=row>
+                <div class="infobox-small col-md">
+                    <div class="infobox-content d-flex justify-content-center">
+                        <div>
+                            <h4 class="d-flex justify-content-center">See våra menyer</h4>
+                            <br>
+                            <p>Saker och ting hoppar runt lunchtid. Vi föreslår att du kollar in våra menyer innan du kommer</p>
+                            <br>
+                            <a href="#" class="d-flex justify-content-center">See Menyer</a>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="infobox-small col-md">
+                    <div class="infobox-content d-flex justify-content-center">
+                        <div>
+                            <h4 class="d-flex justify-content-center">Ta reda på mer om oss</h4>
+                            <br>
+                            <p>Vi kämpar för en trevlig miljö med konstant och god mat för att förbättra eran upplevelse</p>
+                            <br>
+                            <a href="#" class="d-flex justify-content-center">Läs Mer Om Oss</a>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="infobox-small col-md">
+                    <div class="infobox-content d-flex justify-content-center">
+                        <div>
+                            <h4 class="d-flex justify-content-center">Kontakta oss</h4>
+                            <br>
+                            <p>Intresserad av att kontakta oss om bokning av bord i förväg eller kontakta oss om något annat</p>
+                            <br>
+                            <a href="#" class="d-flex justify-content-center">Kotakta Oss Här</a>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
         <div class="info">
-            <h6>Öppetider</h6>
-            <table>
+            <table class=footer-table>
+                <tr>
+                    <td><h6>Öppetider</h6></td>
+                    <td></td>
+                </tr>
                 <tr>
                     <td>
                         Mån-Tors:
@@ -89,7 +151,7 @@
                 </tr>
             </table>
             <br>
-            <table>
+            <table class=footer-table>
                 <tr>
                     <td><p>Östra Storgatan 73</p></td>
                 </tr>
@@ -104,9 +166,18 @@
                 </tr>
             </table>
         </div>
-        <div class=socialmedia>
-            
+        <div class="social-media">
+            <div class="d-flex justify-content-center">
+                <div class="p-3"><i class="bi bi-facebook"></i><a href="#">Facebook</a></div>
+                <div class="p-3"><i class="bi bi-instagram"></i><a href="#">Instagram</a></div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="p-1">Webbsida av Herman Bahr</p>
+                <p class="p-1">© 2021 Dal baffo</p>
+            </div>
         </div>
     </footer>
+
+    <script src="JAVASCRIPT/Java.js"></script>
 </body>
 </html>

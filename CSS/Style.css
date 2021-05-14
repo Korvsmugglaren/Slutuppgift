@@ -17,7 +17,12 @@
     border-bottom: 1px solid #E5E5E5;
 }
 
-.status{
+.status-responsive{
+    margin-left:40%;
+}
+
+#status{
+    width: 85px;
     float: right;
     margin-right:20px;
 }
@@ -26,17 +31,20 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color:green;
+    background-color:red;
     float:left;
-}
-#status-text{
-    float:right;
+    margin-right:5px;
+    margin-top:6px
 }
 
 /* Footer */
+footer{
+    background-color: darkslategray;
+}
 .info{
+    width:99%;
     float:left;
-    margin:40px 0px 40px 30px;
+    margin-top: 30px;
 }
 .info td{
     padding-right: 10px;
@@ -46,6 +54,56 @@
     padding:0px;
     margin:0px;
 }
-.socialmedia{
-    
+.footer-table{
+    display:inline-block;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width:200px;
+    margin-left: 15%;
+}
+.social-media{
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* Main content Home page */
+.infobox-long{
+    border: darkslategray solid 2px;
+    margin: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 11px -1px #000000;
+    transition: all .2s ease-in-out;
+}
+.infobox-small{
+    border: darkslategray solid 2px;
+    margin: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 11px -1px #000000;
+    transition: all .2s ease-in-out;
+}
+.infobox-content{
+    margin: 20px 10px 20px 10px
+}
+.infobox-content h4{
+    font-family: Gilroy extrabold;
+    text-decoration: underline black solid;
+    text-align: center;
+}
+.infobox-content h5{
+    font-family: Bree serif regular;
+    text-align: center;
+}
+.infobox-content p{
+    font-family: Lato regular;
+    text-align: center;
+}
+
+.infobox-long:hover{
+    transform: scale(1.1);
+    box-shadow: -1px 10px 18px 6px rgba(0,0,0,0.31);
+}
+.infobox-small:hover{
+    transform: scale(1.1);
+    box-shadow: -1px 10px 18px 6px rgba(0,0,0,0.31);
 }
