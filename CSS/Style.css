@@ -1,9 +1,11 @@
-
-
 *{
     margin:0px;
     padding:0px;
 }
+
+
+
+
 
 
 /* Header */
@@ -37,9 +39,18 @@
     margin-top:6px
 }
 
+.nav-item a{
+    font-family: Gilroy extrabold;
+}
+
+
+
+
+
 /* Footer */
 footer{
-    background-color: darkslategray;
+    background-color: #363636;
+    color:#ffffff
 }
 .info{
     width:99%;
@@ -47,12 +58,16 @@ footer{
     margin-top: 30px;
 }
 .info td{
-    padding-right: 10px;
+    padding-right: 10px;    
 }
 .info p{
     text-decoration: none;
     padding:0px;
     margin:0px;
+    font-family:Lato regular;
+}
+.info h6{
+    font-family:Bree serif regular;
 }
 .footer-table{
     display:inline-block;
@@ -64,39 +79,52 @@ footer{
 .social-media{
     display: inline-block;
     width: 100%;
+    font-family: Gilroy extrabold;
 }
+
+
+
 
 
 /* Main content Home page */
 .infobox-long{
-    border: darkslategray solid 2px;
     margin: 30px 20px;
     border-radius: 5px;
+    background-color: #ffb3b3;
     box-shadow: 5px 5px 11px -1px #000000;
     transition: all .2s ease-in-out;
 }
+
 .infobox-small{
-    border: darkslategray solid 2px;
     margin: 20px 20px;
     border-radius: 5px;
+    background-color: #ffb3b3;
     box-shadow: 5px 5px 11px -1px #000000;
     transition: all .2s ease-in-out;
 }
+
 .infobox-content{
     margin: 20px 10px 20px 10px
 }
+
 .infobox-content h4{
     font-family: Gilroy extrabold;
     text-decoration: underline black solid;
     text-align: center;
 }
+
 .infobox-content h5{
     font-family: Bree serif regular;
     text-align: center;
 }
+
 .infobox-content p{
     font-family: Lato regular;
     text-align: center;
+}
+
+.infobox-content a{
+    font-family: Gilroy extrabold;
 }
 
 .infobox-long:hover{
@@ -107,3 +135,121 @@ footer{
     transform: scale(1.1);
     box-shadow: -1px 10px 18px 6px rgba(0,0,0,0.31);
 }
+
+
+
+
+
+/* main content menu */
+.main-content{
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 1300px;
+}
+
+@media screen and (max-width:700px) {
+    .swiper-container {
+        width: 100%;
+        height: 1800px;
+    }
+}
+@media screen and (max-width:550px) {
+    .swiper-container {
+        width: 100%;
+        height: 2100px;
+    }
+}
+@media screen and (max-width:400px) {
+    .swiper-container {
+        width: 100%;
+        height: 2600px;
+    }
+}
+
+.swiper-slide {
+    border:solid black 2px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.swiper-slide-active{
+    box-shadow: -1px 10px 18px 6px rgba(0,0,0,0.31);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-content{
+    margin: 20px 10px 20px 10px;
+    text-align:center;
+}
+
+.slide-content-left{
+    float: left;
+    text-align: start;
+    width:49%;
+    margin-left:1%;
+}
+
+.slide-content-right{
+    float:right;
+    text-align: start;
+    width:49%;
+    margin-right:1%;
+}
+
+.slide-content-bottom{
+    width:100%;
+    display:inline-block
+}
+
+@media screen and (max-width:700px){
+    .slide-content-left{
+        float:none;
+        text-align: center;
+        width:100%;
+        margin:0px;
+    }
+    
+    .slide-content-right{
+        float:none;
+        text-align: center;
+        width:100%;
+        margin:0px;
+    }
+}
+
+.food-title{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: Lato regular;
+}
+
+.slide-content h3, h4{
+    font-family: gilroy extrabold;
+    text-decoration: underline solid black;
+}
+.slide-content h5{
+    font-family: Bree serif regular;
+    text-decoration: underline solid black;
+}
+.slide-content p{
+    font-family: Lato regular;
+}
+
+
+
+
+/* Main content Om oss

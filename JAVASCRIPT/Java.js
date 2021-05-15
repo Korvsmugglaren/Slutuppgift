@@ -2,6 +2,7 @@ var currentHours = new Date().getHours();
 var currentDays = new Date().getDay();
 console.log(currentDays);
 console.log(currentHours);
+
 if (11 <= currentHours && currentHours <22 && 1 <= currentDays && currentDays <= 4){
     document.getElementById("status-dot").style.backgroundColor = "green"
     document.getElementById("status-text").innerHTML= "Open"
@@ -39,4 +40,6 @@ jQuery(document).ready(function($) {
     });
     //Fire it when the page first loads:
     alterClass();
-  });
+});     
+
+
