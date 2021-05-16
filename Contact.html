@@ -45,7 +45,70 @@
     <div class="header-frills"></div>
 
     <main>
-
+        <div class="main-content px-2">
+            <div class="d-flex justify-content-around flex-md-row flex-column">
+                <form onsubmit="return false;">
+                    <table id=formtable>
+                        <tr>
+                            <td>Namn:<br></td>
+                        </tr>
+                        <tr>
+                            <td><input type='text' id="Name" maxlength="20" tabindex="1" placeholder="Rolf Rolfsson" required></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Telefon:</td>
+                        </tr>
+                        <tr>
+                            <td><input type='tel' id="Tel" maxlength="9" tabindex="2" placeholder="0722599440" required></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" id="Email" maxlength="30" tabindex="3" placeholder="email@gmail.com" required></td>
+                        </tr>
+                        <tr>
+                            <td>Meddelande:</td>
+                        </tr>
+                        <tr>
+                            <td><textarea id="msgbox" class="w-75" cols="80" rows="10" maxlength="50" tabindex="4" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input  type="submit" value="Skicka" onclick="myFunction();" tabindex="7"></td>
+                        </tr>
+                        <tr>
+                            <td><label id="confirm"></label></td>
+                        </tr>
+                    </table>
+                </form>
+                <div id="map-container-google-1" class="z-depth-1-half map-container responsive-width" style="height: 500px">
+                    <iframe class="responsive-width" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1700981027225!2d14.183335315467012!3d57.781490381144245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dc026e1313f%3A0x4f3219ed7963d093!2sDal%20Baffo!5e0!3m2!1ssv!2sse!4v1621114325658!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <table id="javaForm">
+            <!--
+                Detta tbl är endast här för att vis att min fomr fungerar. 
+                den syns inte på sidan men man kan dubbelkolla genom att inspektera sidan
+            -->
+            <tr id=headrow>
+                <td id="nametd">Namn:</td>
+                <td id="tetrd">Telefon:</td>
+                <td id="emailtd">Email:</td>
+            </tr>
+            <tr>
+                <td id="namn"></td>
+                <td id="tele"></td>
+                <td id="mail"></td>
+            </tr>
+            <tr>
+                <td id="messagetd" colspan="3">Message:</td>
+            </tr>
+            <tr>
+                <td id="message" colspan="3"></td>
+            </tr>
+        </table>
     </main>
 
     <footer>
