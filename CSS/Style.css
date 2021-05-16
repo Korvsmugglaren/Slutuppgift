@@ -383,6 +383,9 @@ footer a:active{
 }
 
 @media screen and (max-width:600px){
+    .left{
+        margin-left:0px !important;
+    }
     .Text-box{
         width:100%;
     }
