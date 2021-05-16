@@ -89,6 +89,10 @@ footer{
     width: 100%;
     font-family: Gilroy extrabold;
 }
+footer a{
+    color:#ffffff;
+    transition: all .2s ease-in-out;
+}
 
 
 
@@ -133,15 +137,8 @@ footer{
 
 .infobox-content a{
     font-family: Gilroy extrabold;
-}
-
-.infobox-long:hover{
-    transform: scale(1.1);
-    box-shadow: -1px 10px 18px 6px rgba(0,0,0,0.31);
-}
-.infobox-small:hover{
-    transform: scale(1.1);
-    box-shadow: -1px 10px 18px 6px rgba(0,0,0,0.31);
+    transition: all .2s ease-in-out;
+    color: #1a1a1a;;
 }
 
 
@@ -306,6 +303,42 @@ picture img{
 
 #javaForm{
     display:none;
+}
+
+
+
+footer a:hover{
+    transform:scale(1.2);
+    color:#ffb3b3
+}
+.infobox-long:hover{
+    transform: scale(1.1);
+    box-shadow: -1px 10px 18px 6px rgba(0,0,0,0.31);
+}
+.infobox-small:hover{
+    transform: scale(1.1);
+    box-shadow: -1px 10px 18px 6px rgba(0,0,0,0.31);
+
+}
+.infobox-long a:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
+.infobox-small a:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+footer a:active{
+    color:#000000;
+}
+.infobox-long a:active{
+    color: #969696;;
+    text-decoration: none;
+}
+.infobox-small a:active{
+    color:#969696;
+    text-decoration: none;
 }
 
 
