@@ -345,6 +345,7 @@ footer a:active{
 
 
 
+/* Media tags */
 @media screen and (max-width:920px){
     .responsive-width{
         width: 450px !important;
