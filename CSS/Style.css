@@ -1,3 +1,8 @@
+@font-face{
+    font-family:Gilroy extrabold;
+    src: url(../FONTS/Gilroy-ExtraBold.otf)
+}
+
 *{
     margin:0px;
     padding:0px;
